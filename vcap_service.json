@@ -1,0 +1,49 @@
+{
+    "iotf-service": [
+        {
+            "credentials": {
+                "iotCredentialsIdentifier": "a2g6k39sl6r5",
+                "mqtt_host": "rclrqe.messaging.internetofthings.ibmcloud.com",
+                "mqtt_u_port": 1883,
+                "mqtt_s_port": 8883,
+                "http_host": "rclrqe.internetofthings.ibmcloud.com",
+                "org": "rclrqe",
+                "apiKey": "a-rclrqe-htbiba8xnq",
+                "apiToken": "78TFB1gKZK-nm(JfNE"
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "iotf-service",
+            "provider": null,
+            "plan": "iotf-service-free",
+            "name": "SampleIotApp-service-Pi2",
+            "tags": [
+                "internet_of_things",
+                "Internet of Things",
+                "ibm_created",
+                "ibm_dedicated_public",
+                "lite"
+            ]
+        }
+    ],
+    "AvailabilityMonitoring": [
+        {
+            "credentials": {
+                "cred_url": "https://perfbroker.ng.bluemix.net",
+                "token": "MOWXBRNCvFEoUs9WwpVIMlEEGMlfpEne42dVZUo5ESr1SKWVmBLxnlzh6WPzqqgcvS8gJyFrZxXnmuU8ZLcV7CM2SQ5Aa1QViOTbtRCNg6U="
+            },
+            "syslog_drain_url": null,
+            "volume_mounts": [],
+            "label": "AvailabilityMonitoring",
+            "provider": null,
+            "plan": "Lite",
+            "name": "availability-monitoring-auto",
+            "tags": [
+                "ibm_created",
+                "bluemix_extensions",
+                "dev_ops",
+                "lite"
+            ]
+        }
+    ]
+}
